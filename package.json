@@ -1,0 +1,27 @@
+{
+  "name": "db-mongos",
+  "version": "1.0.0",
+  "description": "db methods for mongodb.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninlyu/db-mongos.git"
+  },
+  "keywords": [
+    "db",
+    "methods",
+    "mongodb"
+  ],
+  "author": "ninlyu.dev@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninlyu/db-mongos/issues"
+  },
+  "homepage": "https://github.com/ninlyu/db-mongos#readme",
+  "dependencies": {
+    "mongodb": "^3.1.13"
+  }
+}
