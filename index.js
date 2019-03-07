@@ -22,9 +22,9 @@ class MongoConn
 		})
 	}
 
-	count(db, tblname, callback)
+	count(db, tblname, where, callback)
 	{
-		db.db().collection(tblname).find({}).count((err, res) => {
+		db.db().collection(tblname).find(where).count((err, res) => {
 			callback(db, res);
 		})
 	}
